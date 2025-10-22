@@ -1,0 +1,21 @@
+{
+  "name": "proyectoasegu",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test":"npx playwright test",
+    "test:headed":"npx playwright test --headed",
+    "test:uri":"npx playwright test --ui",
+    "test:example":"npx playwright test testspro/example.spec.ts",
+    "test:example:headed":"npx playwright test testspro/example.spec.ts --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.9.1",
+    "dotenv": "^17.2.3"
+  }
+}
