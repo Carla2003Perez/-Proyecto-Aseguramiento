@@ -1,14 +1,8 @@
 ## Ejecución de Tests
 
-### Ejecutar **todos** los tests
-
 ```bash
 npm run test
 ```
-
----
-
-###  Ejecutar **tests individuales**
 
 #### Verificar registro de usuario existente
 
@@ -22,8 +16,8 @@ npx playwright test testspro/Area1/registroexistente.spec.ts --headed
 npx playwright test testspro/Area1/registro.spec.ts --headed
 ```
 
-#### Comandos Tercer Modulo ejecutando las pruebas en un unico navegador
+#### Comandos Area 3
 ```bash
 npx playwright test testspro/Area3/6. autorsinnombre.spec.ts --headed
 npx playwright test testspro/Area3/1.votocarro.spec.ts --headed
-npx playwright test testspro/Area3/2.votounavez.spec.ts --project=chromium --project=chromium --headed
+npx playwright test testspro/Area3/2.votounavez.spec.ts --project=chromium --headed

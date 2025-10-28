@@ -12,11 +12,11 @@ test("Verificar que no se pueda votar otra vez", async ({ page }) => {
   await page.fill('input[type="password"]', "Sur.123ho");
   await page.click('button.btn-success');
 
-  // 3️⃣ Ir a Lamborghini → Diablo
+ 
   await page.click('img[title="Lamborghini"]');
   await page.click('text=Veneno');
   
-  // 6️⃣ Verificar el mensaje mostrado
+  //Verificar el mensaje mostrado
   const mensaje = page.locator(".card-text");
    await expect(mensaje).toHaveText("Thank you for your vote!", { timeout: 10000 });
 
