@@ -24,16 +24,6 @@ npx playwright test testspro/Area1/registro.spec.ts --headed
 
 #### Comandos Tercer Modulo ejecutando las pruebas en un unico navegador
 ```bash
-npx playwright test testspro/Area2/autorsinnombre.spec.ts --project=chromium --headed
-npx playwright test tests/comprobar-incremento-voto.spec.ts --project=chromium --headed
-npx playwright test tests/comprobar-texto-largo.spec.ts --project=chromium --headed
-npx playwright test tests/comprobar-voto-unico.spec.ts --project=chromium --headed
-npx playwright test tests/votar-carro.spec.ts --project=chromium --headed
-npx playwright test tests/votar-sin-login.spec.ts --project=chromium --headed
-npx playwright test tests/expandir-imagen-carro.spec.ts --project=chromium --headed
-npx playwright test tests/limite-paginacion.spec.ts --project=chromium --headed
-npx playwright test tests/limite-inferior-paginacion.spec.ts --project=chromium --headed
-npx playwright test tests/editar-perfil.spec.ts --project=chromium --headed
-npx playwright test tests/votar-auto.spec.ts --project=chromium --headed
-```
----
+npx playwright test testspro/Area3/6. autorsinnombre.spec.ts --headed
+npx playwright test testspro/Area3/1.votocarro.spec.ts --headed
+npx playwright test testspro/Area3/2.votounavez.spec.ts --project=chromium --project=chromium --headed
