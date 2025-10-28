@@ -10,14 +10,15 @@ test("Registro de nuevo usuario en Buggy Cars", async ({ page }) => {
   await page.waitForSelector("#username", { timeout: 15000 });
 
   const timestamp = Date.now();
-  const username = `Carlap17${timestamp}`;
+  const username = `Renee10${timestamp}`;
+  console.log(username);
 
   //formulario de registro
   await page.fill("#username", username);
-  await page.fill("#firstName", "Carla");
-  await page.fill('#lastName', 'Perez');
-  await page.fill('#password', 'Holapersu22.');
-  await page.fill('#confirmPassword', 'Holapersu22.');
+  await page.fill("#firstName", "Renee");
+  await page.fill('#lastName', 'Suriano');
+  await page.fill('#password', 'Sur.123ho');
+  await page.fill('#confirmPassword', 'Sur.123ho');
 
   //Enviar formulario
   await page.click('button:has-text("Register")');
