@@ -9,9 +9,11 @@ npm run test
 ```bash
 npx playwright test testspro/Area1/A1registro.spec.ts --headed
 npx playwright test testspro/Area1/A2registrocampo-vacio.spec.ts --headed
-npx playwright test testspro/Area1/A3contrasena.spec.ts --project=chromium  --headed
+npx playwright test testspro/Area1/A3contrasena.spec.ts --project=chromium --headed
 npx playwright test testspro/Area1/A4registroexistente.spec.ts --headed
-
+npx playwright test testspro/Area1/B1validarlogin.spec.ts --project=chromium --headed
+npx playwright test testspro/Area1/B2logininvalido.spec.ts --project=chromium --headed
+npx playwright test testspro/Area1/B3Cierresesion.spec.ts --project=chromium --headed
 ```
 
 #### comandos Area2
