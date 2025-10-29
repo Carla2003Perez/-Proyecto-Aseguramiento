@@ -7,9 +7,10 @@ npm run test
 #### comandos Area1
 
 ```bash
-npx playwright test testspro/Area1/registroexistente.spec.ts --headed
-
-npx playwright test testspro/Area1/registro.spec.ts --headed
+npx playwright test testspro/Area1/A1registro.spec.ts --headed
+npx playwright test testspro/Area1/A2registrocampo-vacio.spec.ts --headed
+npx playwright test testspro/Area1/A3contrasena.spec.ts --project=chromium  --headed
+npx playwright test testspro/Area1/A4registroexistente.spec.ts --headed
 
 ```
 
@@ -38,5 +39,5 @@ npx playwright test testspro/Area3/5.votosinSesion.spec.ts --project=chromium --
 npx playwright test testspro/Area3/7.imagencarro.spec.ts --project=chromium --headed
 npx playwright test testspro/Area3/8.limitepaginacion.spec.ts --project=chromium --headed
 npx playwright test testspro/Area3/9.limiteinferior.spec.ts --project=chromium --headed
-
+```
 
