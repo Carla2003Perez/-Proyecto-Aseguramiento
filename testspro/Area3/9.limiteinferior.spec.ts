@@ -9,7 +9,7 @@ test("Validar que el botón, esté deshabilitado en la primera página de la sec
   await page.click('a[href="/overall"] img.img-fluid.center-block');
   await expect(page).toHaveURL(/\/overall/i);
 
-  // Seleccionar el botón con el texto « (anterior)
+  // Seleccionar el botón con el texto 
   const botonAnterior = page.locator('a.btn', { hasText: '«' });
 
   // Validar que el botón sea visible

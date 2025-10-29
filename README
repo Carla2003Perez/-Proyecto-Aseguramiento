@@ -4,16 +4,27 @@
 npm run test
 ```
 
-#### Verificar registro de usuario existente
+#### comandos Area1
 
 ```bash
 npx playwright test testspro/Area1/registroexistente.spec.ts --headed
+
+npx playwright test testspro/Area1/registro.spec.ts --headed
+
 ```
 
-#### Verificar registro exitoso de usuario
+#### comandos Area2
 
 ```bash
-npx playwright test testspro/Area1/registro.spec.ts --headed
+npx playwright test testspro/Area2/1.editarperfil.spec.ts --headed
+
+npx playwright test testspro/Area2/2.negacionnumerica.spec.ts --headed
+
+npx playwright test testspro/Area2/3.apellidovacio.spec.ts --project=chromium --headed
+npx playwright test testspro/Area2/4.validargenero.spec.ts --project=chromium --headed
+
+npx playwright test testspro/Area2/5.noactualiza.spec.ts --project=chromium --headed
+
 ```
 
 #### Comandos Area 3
