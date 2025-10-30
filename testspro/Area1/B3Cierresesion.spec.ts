@@ -26,7 +26,7 @@ test('Logout exitoso y redirección correcta', async ({ page }) => {
   await logoutButton.waitFor({ state: 'visible', timeout: 5000 });
   await logoutButton.click();
 
-  // Verificar redirección a login
-  await expect(page.locator('a[href="/login"]')).toBeVisible({ timeout: 5000 });
-  console.log('Logout realizado y redirigido correctamente a la pantalla de login.');
+  // Verificar redirección a login (inputs visibles)
+  await expect(page.locator('input[placeholder="Login"], input[name="login"]')).toBeVisible({ timeout: 5000 });
+  console.log('✅ Logout realizado y redirigido correctamente a la pantalla de login.');
 });

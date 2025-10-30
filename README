@@ -19,27 +19,26 @@ npx playwright test testspro/Area1/B3Cierresesion.spec.ts --project=chromium --h
 #### comandos Area2
 
 ```bash
-npx playwright test testspro/Area2/1.editarperfil.spec.ts --headed
-
-npx playwright test testspro/Area2/2.negacionnumerica.spec.ts --headed
-
-npx playwright test testspro/Area2/3.apellidovacio.spec.ts --project=chromium --headed
+npx playwright test testspro/Area2/C1.editarperfil.spec.ts --headed
+npx playwright test testspro/Area2/C2.negacionnumerica.spec.ts --headed
+npx playwright test testspro/Area2/D1cambiarcontra.spec.ts --project=chromium --headed
+npx playwright test testspro/Area2/H1apellidovacio.spec.ts --project=chromium --headed
 npx playwright test testspro/Area2/4.validargenero.spec.ts --project=chromium --headed
-
 npx playwright test testspro/Area2/5.noactualiza.spec.ts --project=chromium --headed
 
 ```
 
 #### Comandos Area 3
 ```bash
-npx playwright test testspro/Area3/6. autorsinnombre.spec.ts --headed
-npx playwright test testspro/Area3/1.votocarro.spec.ts --headed
-npx playwright test testspro/Area3/2.votounavez.spec.ts --project=chromium --headed
+
+npx playwright test testspro/Area3/E1.votocarro.spec.ts --headed
+npx playwright test testspro/Area3/E2.votounavez.spec.ts --project=chromium --headed
+npx playwright test testspro/Area3/F2.comprobartexto.spec.ts --project=chromium --headed
 npx playwright test testspro/Area3/3.comprobarvoto.spec.ts --project=chromium --headed
-npx playwright test testspro/Area3/4.comprobartexto.spec.ts --project=chromium --headed
 npx playwright test testspro/Area3/5.votosinSesion.spec.ts --project=chromium --headed
-npx playwright test testspro/Area3/7.imagencarro.spec.ts --project=chromium --headed
-npx playwright test testspro/Area3/8.limitepaginacion.spec.ts --project=chromium --headed
+npx playwright test testspro/Area3/6. autorsinnombre.spec.ts --headed
+npx playwright test testspro/Area3/G2.imagencarro.spec.ts --project=chromium --headed
+npx playwright test testspro/Area3/H2.limitepaginacion.spec.ts --project=chromium --headed
 npx playwright test testspro/Area3/9.limiteinferior.spec.ts --project=chromium --headed
 ```
 
