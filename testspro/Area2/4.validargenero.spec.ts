@@ -4,8 +4,8 @@ test('Validar que el campo de género solo permita Male y Female', async ({ page
 
   //Abrir la página de login
   await page.goto("https://buggy.justtestit.org/");
-  await page.fill('input[name="login"]', "Renee101761616948370");
-  await page.fill('input[name="password"]', "Sur.123ho");
+  await page.fill('input[name="login"]', "Eliza1289");
+  await page.fill('input[name="password"]', "Eli123-1");
   await page.click('button[type="submit"]');
   console.log("Sesión iniciada con éxito.");
 
