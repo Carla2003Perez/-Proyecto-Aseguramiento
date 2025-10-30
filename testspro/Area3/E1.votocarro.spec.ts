@@ -9,8 +9,8 @@ test("Votar por el modelo Zonda", async ({ page }) => {
   await page.waitForSelector('input[placeholder="Login"]', { timeout: 15000 });
   await page.waitForSelector('input[type="password"]', { timeout: 15000 });
 
-  await page.fill('input[placeholder="Login"]', "Renee101761616948370"); // CAMBIAR ESTE POR SU USUARIOOOOOOOOOO
-  await page.fill('input[type="password"]', "Sur.123ho");                 // CAMBIAR ESTE POR SU CONTRASEÑA
+  await page.fill('input[placeholder="Login"]', "Renee101761616948370"); 
+  await page.fill('input[type="password"]', "Sur.123ho");               
 
 
   await page.click('button.btn-success');
