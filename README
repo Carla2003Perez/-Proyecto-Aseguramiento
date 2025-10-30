@@ -28,7 +28,7 @@ npx playwright test testspro/Area2/5.noactualiza.spec.ts --project=chromium --he
 
 ```
 
-#### Comandos Area 3
+#### Comandos Area3
 ```bash
 
 npx playwright test testspro/Area3/E1.votocarro.spec.ts --headed
@@ -36,7 +36,7 @@ npx playwright test testspro/Area3/E2.votounavez.spec.ts --project=chromium --he
 npx playwright test testspro/Area3/F2.comprobartexto.spec.ts --project=chromium --headed
 npx playwright test testspro/Area3/3.comprobarvoto.spec.ts --project=chromium --headed
 npx playwright test testspro/Area3/5.votosinSesion.spec.ts --project=chromium --headed
-npx playwright test testspro/Area3/6. autorsinnombre.spec.ts --headed
+npx playwright test testspro/Area3/F1.autorsinnombre.spec.ts --headed
 npx playwright test testspro/Area3/G2.imagencarro.spec.ts --project=chromium --headed
 npx playwright test testspro/Area3/H2.limitepaginacion.spec.ts --project=chromium --headed
 npx playwright test testspro/Area3/9.limiteinferior.spec.ts --project=chromium --headed
